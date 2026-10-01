@@ -1,0 +1,39 @@
+# Kotlin Multiplatform / Android / iOS
+build/
+*/build/
+**/build/
+*.iml
+.gradle/
+local.properties
+*.log
+
+# Compose Multiplatform generated resources
+**/composeResources/*.generated.resources/
+**/*.generated.resources/
+src/androidUnitTest/resources/composeResources/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keystores / secrets
+*.jks
+*.keystore
+google-services.json
+*.p12
+*.pem
+*.key
+.env
+.env.*
+
+# Node (no aplica aquí pero por seguridad)
+node_modules/
+
+# Git
+.git/
